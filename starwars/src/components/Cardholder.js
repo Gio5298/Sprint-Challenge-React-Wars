@@ -27,7 +27,7 @@ export default function CardHolder(){
 
                 return(
                 <div className ="container">
-                    <div className ="row">
+                    <div className="row">
                         <div className ="col">
                         <StarWarsCard 
                         name = {item.name} 

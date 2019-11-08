@@ -4,7 +4,7 @@ import styled from "styled-components";
 const StarWarsCard = props =>{
     return(
         <div className="BodyCard">
-            <div className="harCard">
+            <div className="CharCard">
             <h2>Name: {props.name}</h2>
                 <div className="centerCont">
                 <p>Film(s): {props.films}</p>
